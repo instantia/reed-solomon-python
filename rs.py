@@ -198,7 +198,3 @@ class ReedSolomon(object):
                 result[i][j] = Galois.get_exp(i, j)
 
         return result
-
-
-
-
