@@ -55,8 +55,6 @@ class ReedSolomon(object):
 
         matrix_rows = [None] * self.parity_chunk_count
 
-        # outputs = []
-        # second_outputs = []
         if data_missing_count > 0:
             output_count = 0
             for i in range(self.data_chunk_count):
